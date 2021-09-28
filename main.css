@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.container{
+  width:1020px;
+  margin:0 auto;
+  background-color: yellow;
+}
+header{
+  width:100%;
+  text-align: center;
+}
+.flex-container{
+  display:flex;
+  background-color: white;
+    flex-direction: row;
+    align-items: stretch;
+}
+.flex-container div{
+  background-color: pink;
+  height:150px;
+  flex-grow: 4;
+}
+
+.flex-conatiner. nav{
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+footer {
+  width:100%
+  text-align: center;
+}
+@media (max-width:800px){
+  .flex-container {
+    flex-direction: column;
+  }
+  header {background-color:purple}
+}}
